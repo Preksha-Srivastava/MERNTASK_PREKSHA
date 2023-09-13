@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS_task4</title>
+    <style>
+        .navigation a {
+            position: absolute;
+            left: -108px;
+            transition: 0.5s;
+            padding: 15px 20px 15px 9px;
+            width: 120px;
+            text-decoration: none;
+            font-size: 20px;
+            color: white;
+            border-radius: 0 5px 5px 0;
+            text-align: center;
+        }
+
+        .navigation a:hover {
+            left: 0;
+        }
+
+        #LinkedIn {
+            top: 80px;
+            background-color: rgb(171, 115, 1);
+        }
+
+        #Instagram {
+            top: 140px;
+            background-color: rgb(48, 111, 135);
+        }
+
+        #Gmail {
+            top: 200px;
+            background-color: rgb(84, 30, 108);
+        }
+
+        #Twitter {
+            top: 260px;
+            background-color: rgb(213, 4, 178);
+        }
+
+        .exp {
+            margin-left: 100px;
+            margin-top: 70px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="navigation">
+        <a href="#" id="LinkedIn">LinkedIn</a>
+        <a href="#" id="Instagram">Instagram</a>
+        <a href="#" id="Gmail">Gmail</a>
+        <a href="#" id="Twitter">Twitter</a>
+    </div>
+    <div class="exp">
+        <h2>Hoverable Sidenav Buttons</h2>
+        <p>Hover over the buttons in the left side navigation to open them.</p>
+    </div>
+</body>
+
+</html>

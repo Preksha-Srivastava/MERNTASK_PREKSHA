@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>CSS Task 5</title>
+
+<style>
+*{
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+nav {
+  float: left;
+  width: 30%;
+  height: 57px; 
+  padding: 20px;
+}
+
+nav ul {
+  list-style-type: none;
+  padding: 0px;
+}
+
+article {
+  float: left;
+  padding: 20px;
+  width: 70%;
+}
+
+section::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+li{
+  background: linear-gradient(to right, white 90%, black 50%);
+  padding: 3px;
+  width: 100px;
+  font-size: 15px;
+}
+
+li a
+{
+  text-decoration: none;
+  color: blue;
+}
+
+h1, p, hr, li a:hover
+{
+  color: purple;
+}
+
+section, nav{
+  background-color: rgb(232, 232, 25);
+}
+
+div{
+  padding-bottom: 34%;
+  padding-left: 34%;
+  padding-right: 34%;
+}
+
+</style>
+</head>
+<body>  
+<div>
+<section>
+  <nav>
+    <ul>
+        <br>
+      <li><a href="#">HomePage</a></li><br>
+      <li><a href="#">Musings</a></li><br>
+      <li><a href="#">My town</a></li><br>
+      <li><a href="#">Links</a></li>
+    </ul>   
+  </nav>
+  
+  <article>
+    <h1>My first Styled page</h1>
+    <p> Welcome to my first styled page!</p>
+    <p> It lacks images, but atleast it has style. And it has links, even if they don't go anywhere...</p>
+       
+    <p>There should be more here, but I don't know what yet.</p>
+       
+    <hr>
+     
+    <p><i>Made 5 April 2004 <br/> by myself.</i></p>
+           
+  </article>
+</section>
+</div>
+
+</body>
+</html>
